@@ -1,9 +1,14 @@
+import { NavBar } from 'components/commons/NavBar';
+
+import '../../themes/bootstrap/index.scss';
 import '../../themes/GlobalStyle/index.scss';
-import './App.css';
 
 function App() {
   return (
-    <h1>Hello DSCatalog</h1>
+    <>
+      <NavBar />
+      <h1>Hello DSCatalog</h1>
+    </>
   );
 }
 
