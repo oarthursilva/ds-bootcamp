@@ -45,10 +45,84 @@
   color: #9E9E9E;
 
   margin-bottom: 33px;
-  width: 200px;
+  width: 260px;
 }
 
 .main-card-logo svg {
   width: 100%;
   height: auto;
+}
+
+@media (min-width: 576px) {
+  .main-container {
+    padding: 15px;
+    font-size: 40px;
+  }
+
+  .main-card-content h1 {
+    margin-bottom: 20px;
+    font-size: 1em;
+    width: 506px;
+  }
+
+  .main-card-content p {
+    margin-bottom: 20px;
+    font-size: 0.5em;
+    width: 406px;
+  }
+
+  .main-card-content button {
+    width: 506px;
+  }
+
+  .main-card-logo svg {
+    width: 506px;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .main-container {
+    font-size: 55px;
+  }
+
+  .main-card-content {
+    padding: 20px 20px 100px 20px;
+  }
+
+  .main-card-content h1 {
+    width: 606px;
+  }
+
+  .main-card-content p {
+    width: 606px;
+  }
+
+  .main-card-logo {
+    padding: 100px 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-container {
+    padding: 40px;
+  }
+
+  .main-card-content {
+    padding: 20px 20px 150px 20px;
+  }
+
+  .main-card-logo {
+    padding: 125px 20px;
+  }
+
+  .main-card-content h1 {
+    margin-bottom: 26px;
+    width: 700px;
+  }
+
+  .main-card-content p {
+    margin-bottom: 47px;
+    width: 700px;
+  }
 }
