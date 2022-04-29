@@ -4,13 +4,13 @@ import 'bootstrap/js/src/collapse.js';
 export function NavBar() {
 
   const links = [{
-    url: 'link',
+    url: 'home',
     text: 'HOME',
   }, {
-    url: 'link',
+    url: 'catalogo',
     text: 'CATÁLOGO',
   }, {
-    url: 'link',
+    url: 'admin',
     text: 'ADMIN',
   }]
 
